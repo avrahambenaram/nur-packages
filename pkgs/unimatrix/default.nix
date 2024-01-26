@@ -21,7 +21,6 @@ pkgs.stdenv.mkDerivation rec {
     description = "Python script to simulate the display from \"The Matrix\" in terminal. Uses half-width katakana unicode characters by default, but can use custom character sets. Accepts keyboard controls while running";
     homepage = https://github.com/will8211/unimatrix;
     license = licenses.gpl3;
-    maintainers = [ maintainers.avrahambenaram ];
     platforms = platforms.all;
   };
 }
