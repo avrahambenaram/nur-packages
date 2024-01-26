@@ -4,7 +4,7 @@ pkgs.stdenv.mkDerivation rec {
   pname = "unimatrix";
   version = "1.0.0";
 
-  src = pkgs.fetchGit {
+  src = pkgs.fetchgit {
     url = "https://github.com/will8211/unimatrix";
     name = "unimatrix";
   };
