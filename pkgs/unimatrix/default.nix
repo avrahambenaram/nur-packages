@@ -8,4 +8,4 @@ let
       hash = "sha256-QN2YunUN0nHD6aa4praWYy+o6lmPMFzR3rnVdEJw6fc=";
     }
   );
-in unimatrix
+in unimatrix { inherit pkgs; }
