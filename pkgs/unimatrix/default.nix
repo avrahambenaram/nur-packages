@@ -1,7 +1,7 @@
 { pkgs, stdenv, ... }:
 
 let
-  unimatrix = (
+  unimatrix = import (
     pkgs.fetchgit {
       url = "https://github.com/will8211/unimatrix";
       name = "unimatrix";
